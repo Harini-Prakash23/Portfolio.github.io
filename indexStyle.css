@@ -1,0 +1,467 @@
+*{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.full{
+    width: 100%;
+    height: 100vh;
+    background-image: url(pastel.jpg);
+    background-size:100%;
+
+    
+}
+
+.head{
+    background-color: rgb(195, 179, 195);
+    background-size:100% ;
+    padding-top: 10px;
+    padding-left:90px;
+    height: 20px;
+}
+
+header .links p{
+    color: rgb(31, 92, 100);
+    font-size: 15px;
+    margin-left:30px;
+    margin-top:-20px;
+    transition: color 0.2s;
+}
+
+header .links a{
+    color: rgb(31, 92, 100);
+    text-decoration: none;
+}
+
+header .links a:hover{
+    color: black;
+}
+
+header .links p:hover{
+    color: black;
+}
+
+
+header .sociallinks{
+   margin-left: 950px;
+   margin-top: -35px;
+}
+
+header .sociallinks .L{
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+header .sociallinks a{
+    color: rgb(60, 158, 171);
+    transition: color 0.2s;
+}
+
+header .sociallinks a:hover{
+    color: black;
+}
+
+nav #logo{
+    width:15%;
+    height:50px;
+    margin-top:45px ;
+    margin-left: 65px;
+}
+
+nav ul{
+    margin-top:-30px;
+    margin-left:750px;
+    font-size: larger;
+ }
+ 
+nav  ul li{
+     list-style: none;
+     display: inline-block;
+     margin: 0px 10px;
+ }
+ 
+nav ul li a{
+     text-decoration: none;
+     position: relative;
+     font-size: 20px;
+ }
+ 
+ nav ul li a:visited{
+     color: rgb(21, 15, 19);
+ }
+ 
+nav ul li a::after{
+     content:'';
+     width:0%;
+     height: 1px;
+     background-color: rgb(221, 0, 255);
+     position: absolute;
+     transition: 0.5s;
+     left:0px;
+     bottom:-5px;
+ }
+ 
+nav ul li a:hover::after{
+     width: 100%;           
+ }
+
+
+ .mypic img{
+    width:20%;
+    height:300px;
+    border:5px ridge rgb(218, 168, 32);
+    margin-left:900px;
+    margin-top: 100px;
+    margin-right: 150px;    
+    
+}
+
+.index h1{
+    text-align: left;
+    margin-left: 90px;
+    margin-top: -240px;
+    font-size: xx-large;
+
+}
+
+
+ .index span{
+    color: rgb(191, 67, 171);
+}
+
+.index p{
+    color: black;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 90px;
+       
+}
+
+ .index #cv{
+    font-weight: bold;
+    background-color: rgb(195, 76, 204);
+    color: black;
+    margin-left: 90px;
+    border-radius: 10px;
+    height: 35px;
+    font-size: larger;
+    transition: color 0.3s;
+    padding: 0 10px;
+    text-decoration: none;
+}
+ .index #cv:hover{
+    background-color: brown;
+}
+
+/*About me section*/
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 0px;
+    background-image:url(pastel.jpg);
+    background-size: cover;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 35px;
+ }
+
+.about img{
+    height: 300px;
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 40px;
+    border:5px ridge rgba(159, 81, 147, 0.967);
+}
+.about-text{
+    width: 850px;
+}
+.about-text p{
+    color: black;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 90px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+/*Education Section*/
+.edu{
+    background-image: url(pastel.jpg);
+     background-size: cover;
+     width: 100%;
+     padding: 30px 0px;
+     height: 100vh;
+ }
+ 
+ .edu h2{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+ }
+ .slides{
+     width: 100%;
+     height: 25vh;
+     display: flex;
+     align-items: center;
+     justify-content: last baseline;
+     gap:100px;
+     color: #fff;
+    
+ }
+ 
+ .slides img{
+     width: 250px;
+     height:150px;
+     border-radius: 0px;
+     padding-left: 10px;
+ }
+ 
+ .slides p{
+     color: black;
+     font-size: 30px;
+     font-weight: 300px;
+     max-width: 800px;
+     text-decoration: none;
+ }
+ 
+ .edu .slides p span{
+    color: black;
+     font-weight: bold;
+ }
+ .s1{
+     background: linear-gradient(454deg,#d3d0da,#a997c6);
+ }
+ .s2{
+     background: linear-gradient(454deg,#d2d1d1,#a4829c);
+ }
+ .s3{
+      background: linear-gradient(454deg,#a9adaa,#699274);
+ }
+
+/*Project Section*/
+
+ .pro {
+    background-image: url(pastel.jpg);
+    background-size: cover;
+    width: 100%;
+   height: 100vh;
+   padding: 30px 0px;
+
+}
+.pro .title h1{
+    font-size: 35px;
+     padding-top: 10px;
+     text-align: center;
+}
+
+.pro .box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;            
+   }
+
+.pro .card{
+    height: 300px;
+    width: 455px;
+    padding: 30px 35px;
+    background: #d69898;
+    border-radius: 30px;
+    margin: 40px 20px;
+    text-align: center;
+
+}
+.pro .card h5{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.pro .para p{
+    text-align: center;
+}
+.pro .card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 700px;
+    border:2px solid black;
+}
+.pro .card .button button{
+   border-radius: 20px;
+   padding: 3px 5px;
+   border:2px solid black;
+   background-color: rgb(189, 96, 142);
+}
+
+.pro .card .button button:hover{
+background-color: rgb(46, 57, 211);
+}
+
+/* Certificate section*/
+.certif{
+    background-image: url(pastel.jpg);
+     background-size: cover;
+     width: 100%;
+     height: 100vh;
+     margin-top: -50px;
+
+ }
+
+ .certif h1{
+    font-size: 35px;
+     padding-top: 40px;
+     padding-bottom: 30px;
+     text-align: center;
+ }
+ 
+.certif .slides{
+     width: 100%;
+     height: 25vh;
+     display: flex;
+     align-items: center;
+     justify-content: last baseline;
+     gap:70px;
+     color: #fff;
+     
+ }
+ .certif .slides a{
+     text-decoration: none;
+     background-color: #59abbd;
+     color: black;
+     width:6%;
+     text-align: center;
+     margin-right: 70px;
+     border-radius: 6px;
+     border:1px solid black;
+ }
+ .certif .slides a:hover{
+     background-color: rgb(79, 28, 220);
+ }
+ .certif .slides img{
+     width: 300px;
+     height:150px;
+     border-radius: 0px;
+ }
+ 
+ .certif .slides p{
+     color: black;
+     font-size: 30px;
+     font-weight: 300px;
+     max-width: 650px;
+     text-decoration: none;
+ }
+ .certif .s1{
+     background: linear-gradient(454deg,#d3d0da,#a997c6);
+ }
+ .certif .s2{
+     background: linear-gradient(454deg,#d2d1d1,#a4829c);
+ }
+ .certif .s3{
+      background: linear-gradient(454deg,#a9adaa,#699274);
+ }
+
+ /*Conatct Me section*/
+
+ .Contact{
+    background-image: url(pastel.jpg);
+    background-size:100%;
+    width: 100%;
+    height: 130vh;
+    
+
+}
+
+.Contact h1{
+    font-size: 35px;
+     padding-top: 50px;
+     padding-bottom: 20px;
+     text-align: center;
+    
+}
+
+.Contact fieldset{
+    width:30%;
+    text-align: left;
+    border: 4px double black;
+}
+
+
+.Contact label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+    padding-left:10px;
+    width:40%;
+    
+}
+
+.Contact input{
+    color: rgba(50, 48, 48, 0.996);
+    border: 1.5px solid black;
+    width: 60%;
+    height:20px;
+    padding-left:10px;
+}
+
+.Contact button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    border: 1px solid black;
+    background-color: rgb(223, 222, 239);
+    border-radius: 0px;
+    transition: color 0.2s;
+    width: 30%;
+    height:35px;
+}
+
+.Contact button:hover{
+    background-color: rgb(183, 120, 173);
+}
+
+.Contact .pp{
+    margin-left: 50px;
+    margin-top: -25px;
+    color: black;     
+}
+
+.Contact a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.Contact a:hover{
+    color: brown;
+}
+
+.Contact #one{
+    height:200px;
+    width:25%;
+    font-size:20px;
+    margin-left:70px;
+    padding-left:130px;  
+    padding-top: 50px;           
+}
+
+.Contact .sociallinks{
+    color: rgb(34, 136, 149);
+    transition: color 0.2s;
+    font-size: 50px;
+    padding: 0px 10px;
+}
+
+.Contact .sociallinks:hover{
+    color: black;
+}
+
+.Contact #two{
+    width: 30%;
+    padding-left: 900px;
+    margin-top:-218px;  
+    padding-right: 150px;  
+    width: 20%;  
+}

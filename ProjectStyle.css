@@ -1,0 +1,53 @@
+.project{
+    background-image: url(pastel.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: -17px;
+    margin-bottom: 0px;
+
+}
+.title h1{
+     padding-top: 50px;
+     padding-bottom: 30px;
+     text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;            
+   }
+
+.card{
+    height: 300px;
+    width: 455px;
+    padding: 30px 35px;
+    background: #d69898;
+    border-radius: 30px;
+    text-align: center;
+
+}
+.card h5{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.para p{
+    text-align: center;
+}
+.card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 700px;
+    border:2px solid black;
+}
+.card .button button{
+   border-radius: 20px;
+   padding: 3px 5px;
+   border:2px solid black;
+   background-color: rgb(189, 96, 142);
+}
+
+.card .button button:hover{
+background-color: rgb(46, 57, 211);
+}

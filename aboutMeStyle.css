@@ -1,0 +1,37 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 0px;
+    background-image:url(pastel.jpg);
+    background-size: cover;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 35px;
+ }
+
+.about img{
+    height: 300px;
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 40px;
+    border:5px ridge rgba(159, 81, 147, 0.967);
+}
+.about-text{
+    width: 850px;
+}
+.about-text p{
+    color: black;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 90px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
