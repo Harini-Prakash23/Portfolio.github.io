@@ -1,6 +1,10 @@
 *{
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
+body{
+    background-color:white;
+}
+
 
 .full{
     width: 100%;
@@ -175,13 +179,18 @@ nav ul li a:hover::after{
  }
 
 .about-text{
+    margin-left: 60px;
     width:1200px;
+    height: 350px;
+    border-radius: 20px;
+    background: linear-gradient(454deg,#ac9cd06d,#da8fc76d);
 }
 .about-text p{
     color: black;
     font-size: 25px;
     text-align: justify;
-    margin-left: 150px ;
+    padding: 0px 30px;
+    padding-top: 40px;    
 }
 
 
