@@ -104,8 +104,8 @@ nav ul li a:visited{
 nav ul li a::after{
      content:'';
      width:0%;
-     height: 1px;
-     background-color: rgb(221, 0, 255);
+     height: 3px;
+     background-color: rgba(148, 62, 162, 0.345);
      position: absolute;
      transition: 0.5s;
      left:0px;
